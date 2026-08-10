@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/relay-p2p-web/sw.js', { scope: '/relay-p2p-web/' })})}
